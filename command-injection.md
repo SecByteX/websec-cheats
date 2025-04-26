@@ -37,4 +37,5 @@ command1 || command2 = Runs the second command only if the first command fails.
 $(whoami)
 $(ping -c 10 127.0.0.1)
 ||ping+-c+10+127.0.0.1||
+whoami+>+/var/www/images/example.txt
 ```
